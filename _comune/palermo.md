@@ -7,7 +7,7 @@ La pagina dell'albo pretorio delle delibere di Giunta del **Comune di Palermo** 
 
 Adesso puoi seguire le nuove pubblicazioni in albo in due modalità:
 
-* su un canale **Telegram** [https://telegram.me/comuneleccenews](https://telegram.me/opendatapalermo);
+* su un canale **Telegram** [https://telegram.me/opendatapalermo](https://telegram.me/opendatapalermo);
 * tramite un **feed RSS** [http://feeds.feedburner.com/Albopoppalermo](http://feeds.feedburner.com/Albopoppalermo).
 
 **Nota bene**: nel canale ci sono solo le Delibere di Giunta.
