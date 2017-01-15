@@ -3,7 +3,7 @@ layout: comune
 title: Pedara (Sicilia)
 ---
 
-La pagina dell'albo pretorio del **Comune di Pedara** è questa: [http://pubblicazioni.saga.it/publishing/index.do?org=pedara](http://pubblicazioni.saga.it/publishing/index.do?org=pedara)
+La pagina dell'albo pretorio del **Comune di Pedara** è questa: [http://pubblicazioni.saga.it/publishing/AP/index.do?org=pedara](http://pubblicazioni.saga.it/publishing/AP/index.do?org=pedara)
 
 Adesso puoi seguire le nuove pubblicazioni in albo in tre modi dedicati:
 
