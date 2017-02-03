@@ -48,13 +48,27 @@ class AlboParcoDellEtnaRowParser implements AlboRowParser{
 		$cells=$row->getElementsByTagName("td");
 		$entry=new AlboParcoDellEtnaEntry();
 		$entry->date=DateTime::createFromFormat('d/m/Y',
-				$cells[0]->textContent);
-		$entry->number=$cells[1]->textContent;
-		$anchor=$cells[2]->getElementsByTagName('a')->item(0);
-		$entry->title=$anchor->textContent;
+				$cells->item(0)->textContent);
+		$entry->number=$cells->item(1)->textContent;
+		$anchor=$cells->item(2)->getElementsByTagName('a')->item(0);
+		$entry->title=$this->getElementPlainContent($anchor);
 		$entry->link=$this->baseUri.$anchor->getAttribute('href');
 		return $entry;
 	}
+	
+	/**
+	 * Perform some preprocessing on a table cell content in order
+	 * to get it as plain text.
+	 *
+	 * @param DOMElement $td
+	 */
+	private function getElementPlainContent($td){
+		return 	html_entity_decode(trim(
+				str_replace("\t", '',
+						str_replace("\r", '',
+								str_replace("\n", ' ', strip_tags($td->nodeValue))))));
+	}
+	
 }
 
 ?>
