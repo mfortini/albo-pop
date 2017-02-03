@@ -1,9 +1,6 @@
 <?php 
 /**
- * Basic implementation for Albos consisting of rows in a table assuming that:
- * 
- * - there is just one table element in the web page
- * - this element contains an header
+ * Parse a Table element rows using a specified table parser
  * 
  * Copyright 2016 Cristiano Longo
  *
@@ -23,7 +20,7 @@
  * @author Cristiano Longo
  */
 
-class AlboTableParser extends TableParser{
+class AlboTableParser implements Iterator{
 	private $rowParser;
 	private $rows;
 	private $index;
@@ -35,25 +32,31 @@ class AlboTableParser extends TableParser{
 	 * @param DOMDocument $htmlPage
 	 * @param AlboRowParser $rowParser
 	 */
-	public function __construct($htmlPage, $rowParser){
-		super(AlboTableParser::getTableElement($htmlPage), $rowPage);
+	public function __construct($tableElement, $rowParser){
+		$this->rows=$tableElement->getElementsByTagName('tr');
+		$this->index=1;
+		$count=$this->rows->length;
 	}
 	
-	/**
-	 * Extract the table element from a DomDocument of a web page, assuming that
-	 * there is one and only one element of type table in the web page
-	 */
-	public static getTableElement($htmlPage){
-		$this->rowParser=$rowParser;
-		$tables=$htmlPage->getElementsByTagName("table");
-		if ($tables->length<1){
-			$this->rows=new DOMNodeList();
-			$this->index=-1;
-		}
-		else if ($tables->length>1)
-			throw new Exception("Multiple table elements found");
-		else
-			return $tables->item(0);	
+	public function current(){
+		return $this->rowParser->parseRow($this->rows->item($this->index));
+	}
+	
+	
+	public function key (){
+		return $this->index-1;
+	}
+	
+	public function next(){
+		++$this->index;
+	}
+	
+	public function rewind(){
+		$this->index=1;
+	}
+	
+	public function valid(){
+		return $this->rows->length>1 && $this->index<$this->rows->length;
 	}	
 }
 ?>

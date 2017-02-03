@@ -1,6 +1,10 @@
 <?php
 /**
- * Factory object to create parser for a specific Albo Pretorio.
+ * Factory object to create parser for a specific Albo Pretorio. The responsibilities
+ * of this class are: downloading the albo page or pages or the single notice,
+ * parse notices into objects of a albo-specific class (usually representing all the
+ * information provided by the notice board entries) suitable to be converted into
+ * RSSFeedItem by a albo-specific AlboToRSSItemConverter instance. 
  * 
  * Copyright 2016 Cristiano Longo
  *
