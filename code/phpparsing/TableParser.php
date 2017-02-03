@@ -20,7 +20,7 @@
  * @author Cristiano Longo
  */
 
-class AlboTableParser implements Iterator{
+class TableParser implements Iterator{
 	private $rowParser;
 	private $rows;
 	private $index;
@@ -33,6 +33,7 @@ class AlboTableParser implements Iterator{
 	 * @param AlboRowParser $rowParser
 	 */
 	public function __construct($tableElement, $rowParser){
+		$this->rowParser=$rowParser;
 		$this->rows=$tableElement->getElementsByTagName('tr');
 		$this->index=1;
 		$count=$this->rows->length;

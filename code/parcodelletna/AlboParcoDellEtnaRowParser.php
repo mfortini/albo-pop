@@ -20,16 +20,40 @@
  *
  */
 require ('../phpparsing/AlboRowParser.php');
+require ('./AlboParcoDellEtnaEntry.php');
+define('DATE_FORMAT','d/m/Y');
 
+/**
+ * @author cristianolongo
+ *
+ */
 class AlboParcoDellEtnaRowParser implements AlboRowParser{
 
+	private $baseUri;
+	
+	/**
+	 * 
+	 * @param String $baseUri base uri for links
+	 */
+	public function __construct($baseUri) {
+		$this->baseUri=$baseUri;
+	}
+	
 	/**
 	 * Convert a table row into an Albo-specific entry object.
 	 *
 	 * @param DOMElement $row
 	 */
 	function parseRow($row){
-		return "Unimplemented";
+		$cells=$row->getElementsByTagName("td");
+		$entry=new AlboParcoDellEtnaEntry();
+		$entry->date=DateTime::createFromFormat('d/m/Y',
+				$cells[0]->textContent);
+		$entry->number=$cells[1]->textContent;
+		$anchor=$cells[2]->getElementsByTagName('a')->item(0);
+		$entry->title=$anchor->textContent;
+		$entry->link=$this->baseUri.$anchor->getAttribute('href');
+		return $entry;
 	}
 }
 

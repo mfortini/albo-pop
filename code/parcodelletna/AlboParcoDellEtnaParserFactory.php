@@ -1,8 +1,8 @@
 <?php
 /**
- * Facotry methods to get entries of the Albo of the University of Catania
+ * Factory methods to get entries of the Albo of the University of Catania
  * 
- * Copyright 2016 Cristiano Longo
+ * Copyright 2017 Cristiano Longo
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -44,7 +44,7 @@ class AlboParcoDellEtnaParserFactory implements AlboParserFactory {
 		$tableElement=$page->getElementById("ctl00_ContentPlaceHolder1_VisualizzaDocumenti1_Rep");
 		if ($tableElement==null)
 			throw new Exception("Albo Table not found");
-		return new TableParser($tableElement, new AlboParcoDellEtnaRowParser());
+		return new TableParser($tableElement, new AlboParcoDellEtnaRowParser($this->alboPageUri));
 	}
 	
 	/**
