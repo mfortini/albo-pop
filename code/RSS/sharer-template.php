@@ -101,7 +101,8 @@ if (isset ( $news ))
 		</blockquote>
 		<p>
 			Vedi l'<a href="<?php echo $link?>" target="_blank">avviso originale</a>
-			- Condividi su <a href="#" onclick="sharefb()">Facebook</a> o
+			 
+			<!-- -  Condividi su <a href="#" onclick="sharefb()">Facebook</a> o -->
 			<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
 		</p>
 	</section>
