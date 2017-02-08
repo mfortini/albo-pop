@@ -22,6 +22,7 @@
  *
  * @author Cristiano Longo
  */
+require ('TableParser.php');
 
 class AlboTableParser extends TableParser{
 	private $rowParser;
@@ -36,15 +37,14 @@ class AlboTableParser extends TableParser{
 	 * @param AlboRowParser $rowParser
 	 */
 	public function __construct($htmlPage, $rowParser){
-		super(AlboTableParser::getTableElement($htmlPage), $rowPage);
+		parent::__construct(AlboTableParser::getTableElement($htmlPage), $rowParser);
 	}
 	
 	/**
 	 * Extract the table element from a DomDocument of a web page, assuming that
 	 * there is one and only one element of type table in the web page
 	 */
-	public static getTableElement($htmlPage){
-		$this->rowParser=$rowParser;
+	public static function getTableElement($htmlPage){
 		$tables=$htmlPage->getElementsByTagName("table");
 		if ($tables->length<1){
 			$this->rows=new DOMNodeList();
