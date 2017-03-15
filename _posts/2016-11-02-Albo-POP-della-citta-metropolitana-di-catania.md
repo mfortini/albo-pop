@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Il primo albo pop per una città metropolitana: Catania
+title: Il primo albo pop per una città metropolitana, Catania
 ---
 
 *di Cristiano Longo*
