@@ -1,6 +1,6 @@
 ---
 layout: comune
-title: Gravina di Catania (Sicilia)
+title: Sant'Agata Li Battiati (Sicilia)
 ---
 
 La pagina dell'albo pretorio del **Comune di Sant'Agata Li Battiati** è [http://albopretorio.datamanagement.it/?ente=SantAgataLiBattiati&tipoSubmit=ricerca](http://albopretorio.datamanagement.it/?ente=SantAgataLiBattiati&tipoSubmit=ricerca)
