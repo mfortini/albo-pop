@@ -44,7 +44,7 @@ class AlboEntry {
 
 			$this->anno = $cells->item(1)->nodeValue;
 
-			$this->mittente_descrizione = html_entity_decode(utf8_decode($cells->item(7)->nodeValue));
+			$this->mittente_descrizione = html_entity_decode($cells->item(7)->nodeValue);
 
 			$tmp = $cells->item(12)->getElementsByTagName("a")->item(0)->getAttribute("href");
 			$guid = substr($tmp, 29, 36);
