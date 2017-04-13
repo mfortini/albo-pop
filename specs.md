@@ -295,7 +295,7 @@ Devono essere uno (codice univoco) o più e contenere il maggior numero possibil
 <category domain="http://albopop.it/specs#item-category-longitude">13.5</category>
 ```
 
-### Domain item act<a name="item-category-uid"></a>
+### Domain item uid<a name="item-category-uid"></a>
 [OBBLIGATORIO] L'identificativo numerico univoco dell'atto, univoco all'interno dell'Albo Pretorio in oggetto, nella forma `[anno]/[numero atto]`. Esempio:
 
 ```
