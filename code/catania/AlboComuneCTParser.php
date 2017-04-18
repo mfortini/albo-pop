@@ -137,7 +137,9 @@ class AlboComuneCTParser implements Iterator{
 	 * Retrieve the albo pages with all the notices of the current year
 	 */
 	public static function createByYear(){
-		$currentYear=(new DateTimeImmutable())->format('Y');
+		date_default_timezone_set("Europe/Rome");
+		$t=new DateTime();
+		$currentYear=$t->format('Y');
 		
 		$h=curl_init(ALBO_CT_URL);
 		if (!$h) throw new Exception("Unable to initialize cURL session");
