@@ -1,6 +1,7 @@
 ---
 layout: altrepa+widget
 title: Università di Catania (Sicilia)
+rss: http://dev.opendatasicilia.it/albopop/unict/unict2RSS.php
 ---
 
 La pagina dell'albo pretorio del **Università di Catania** è questa: [http://ws1.unict.it/albo/](http://ws1.unict.it/albo/)
