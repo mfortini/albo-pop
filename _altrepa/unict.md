@@ -1,5 +1,5 @@
 ---
-layout: altrepa
+layout: altrepa+widget
 title: Università di Catania (Sicilia)
 ---
 
