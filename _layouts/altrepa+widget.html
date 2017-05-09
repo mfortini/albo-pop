@@ -15,6 +15,7 @@
 <link rel="alternate" type="application/rss+xml"
 	title="{{ site.name }} - {{ site.description }}"
 	href="{{ site.baseurl }}/feed.xml" />
+<link rel="stylesheet" type="text/css" href="http://opendatahacklab.org/commons/css/albopopwidget.css" />
 <script type="text/javascript"
 	src="http://www.opendatahacklab.org/rss-tools/js/rss-tools.js"></script>
 
@@ -47,16 +48,16 @@
 		</div>
 	</div>
 
-	<div id="main" role="main" class="container">
-		<div id="widget">
-			<h2><a href="http://albopop.it">albopop.it</a></h2>
-		</div>	
-		<script type="text/javascript" defer>
-			drawRssWitdget("http://www.opendatahacklab.org/rss-tools/php/albopop/randomunict.php", "widget");
-		</script>
-	
+	<div id="main" role="main" class="container">	
 		<article class="post">
 			<h1>{{ page.title }}</h1>
+
+			<div id="widget">
+				<h2><a href="http://albopop.it">albopop.it</a></h2>
+			</div>	
+			<script type="text/javascript" defer>
+				drawRssWitdget("http://www.opendatahacklab.org/rss-tools/php/albopop/randomunict.php", "widget");
+			</script>
 
 			<div class="entry">{{ content }}</div>
 
