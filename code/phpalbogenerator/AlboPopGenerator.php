@@ -59,6 +59,7 @@ class AlboPopGenerator {
 		}
 		// output
 		header ( 'Content-type: application/rss+xml; charset=UTF-8' );
+		header ('Access-Control-Allow-Origin: *');
 		/*
 		 * Impostazioni locali in italiano, utilizzato per la stampa di data e ora
 		 * (il server deve avere il locale italiano installato
