@@ -1,6 +1,7 @@
 ---
-layout: altrepa
+layout: altrepa+widget
 title: Città Metropolitana di Catania (Sicilia)
+rss: http://dev.opendatasicilia.it/albopop/cittametropolitanacatania/albofeed.php
 ---
 
 La pagina dell'albo pretorio della **Città Metropolitana di Catania** è questa: [http://trasparenza.cittametropolitana.ct.it/web/citta-metropolitana-di-catania/albo-pretorio](http://trasparenza.cittametropolitana.ct.it/web/citta-metropolitana-di-catania/albo-pretorio)
