@@ -46,7 +46,7 @@ class AlboScuolaGBVaccariniCTRowParser implements AlboRowParser{
 	 */
 	function parseRow($row){
 		$cells=$row->getElementsByTagName('td');
-		$noticeEl=$cells[1];
+		$noticeEl=$cells->item(1);
 		$entry=new RSSFeedItem();
 		$entry->description=$noticeEl->textContent;
 		
@@ -55,7 +55,7 @@ class AlboScuolaGBVaccariniCTRowParser implements AlboRowParser{
  		$entry->pubDate=DateTime::createFromFormat('d/m/Y',
  				$spans->item(2)->textContent);
  		
- 		$docId=$cells[3]->getElementsByTagName('div')[0]->getAttribute("id_doc");
+ 		$docId=$cells->item(3)->getElementsByTagName('div')->item(0)->getAttribute("id_doc");
  		$entry->link="https://web.spaggiari.eu/sdg/app/default/view_documento.php?a=akVIEW_FROM_ID&id_documento=$docId&sede_codice=CTII0016";
  		$entry->guid=$entry->link;
 		return $entry;
