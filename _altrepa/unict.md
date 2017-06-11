@@ -13,3 +13,7 @@ Adesso puoi seguire le nuove pubblicazioni in albo in tre modi dedicati:
 * sul **canale IRC** #dmi sul server irc.azzurra.org.
 
 **Autore**: [Cristiano Longo](https://github.com/cristianolongo)
+
+**Note**: Questo Albo POP è stato realizzato nell'ambito del progetto
+[opendatahacklab](http://opendatahacklab.org)  di [Hackspace Catania](http://hackspacecatania.it)
+

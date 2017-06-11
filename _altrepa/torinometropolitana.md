@@ -15,6 +15,7 @@ Vedi anche il [Gruppo Facebook AlboPop Torino - Comune e Universita'](https://ww
 **Autori**: Michele Maresca, Cristiano Longo
 
 **Note**: Questo Albo POP è stato realizzato nell'ambito del progetto
-[opendatahacklab](http://opendatahacklab.org) grazie al sostegno di Riccardo Grosso. 
+[opendatahacklab](http://opendatahacklab.org)  di [Hackspace Catania](http://hackspacecatania.it)
+grazie al sostegno di Riccardo Grosso. 
 
 ![Foto di Riccardo](http://dev.opendatasicilia.it/albopop/torino/grosso.png)

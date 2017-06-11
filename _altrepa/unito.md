@@ -12,4 +12,5 @@ Vedi anche il [Gruppo Facebook AlboPop Torino - Comune e Universita'](https://ww
 **Autore**: [Cristiano Longo](https://github.com/cristianolongo)
 
 **Note**: Questo Albo POP è stato realizzato nell'ambito del progetto
-[opendatahacklab](http://opendatahacklab.org) grazie al sostegno di David Montenegro. 
+[opendatahacklab](http://opendatahacklab.org)  di [Hackspace Catania](http://hackspacecatania.it)
+grazie al sostegno di David Montenegro. 

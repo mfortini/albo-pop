@@ -14,4 +14,5 @@ Adesso puoi seguire le nuove pubblicazioni in albo e condividerle sui social
 **Autore**: Cristiano Longo
 
 **Note**: Questo Albo POP è stato realizzato nell'ambito del progetto
-[opendatahacklab](http://opendatahacklab.org) grazie al sostegno di Rosario Maria Romeo. 
+[opendatahacklab](http://opendatahacklab.org)  di [Hackspace Catania](http://hackspacecatania.it)
+ grazie al sostegno di Rosario Maria Romeo. 
