@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Banchetto Albo POP al Bastione degli Infetti
+title: Albo POP dell'Istituto d'Istruzione Superiore G.B. Vaccarini Catania
 ---
 
 *di Cristiano Longo*
