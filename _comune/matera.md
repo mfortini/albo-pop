@@ -8,8 +8,7 @@ La pagina dell'albo pretorio del **Comune di Matera** è questa: [http://www.com
 
 Adesso puoi seguire le nuove pubblicazioni in albo in due modi dedicati:
 
-* su un account **Twitter** [https://twitter.com/albopopmatera](https://twitter.com/albopopmatera);
-* su un canale **Telegram** [https://telegram.me/comunedimaterachannel](https://telegram.me/comunedimaterachannel).
+* su un canale **Telegram** [https://telegram.me/comunedimateranews](https://telegram.me/comunedimateranews).
 * tramite un **feed RSS** [http://feeds.feedburner.com/albopopcomunematera](http://feeds.feedburner.com/albopopcomunematera).
 
 
