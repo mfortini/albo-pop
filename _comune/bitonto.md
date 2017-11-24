@@ -11,6 +11,6 @@ Adesso puoi seguire le nuove pubblicazioni in albo in due modi dedicati:
 * su un canale **Telegram** [https://telegram.me/albopretoriobitonto](https://telegram.me/albopretoriobitonto);
 * iscrivendoti a un **feed RSS** [http://feeds.feedburner.com/AlboPopBitonto](http://feeds.feedburner.com/AlboPopBitonto).
 
-Il comune di Bitonto è un comune "AlboPOP ufficiale" (al 24 novembre 2017), così come è possibile vedere [qui](http://www.comune.bitonto.ba.it/atti/albopretorio.html).
+Il comune di Bitonto è un comune "**AlboPOP ufficiale**" (al 24 novembre 2017), così come è possibile vedere [qui](http://www.comune.bitonto.ba.it/atti/albopretorio.html).
 
 **Autore**: [sputnik63](https://github.com/sputnik63)
