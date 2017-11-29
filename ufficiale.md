@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ufficialmente POP
-permalink: /ufficiale/
+permalink: /ufficiale
 ---
 
 Alcune pubbliche amministrazioni hanno scelto di essere "**ufficialmente POP**" e hanno deliberato formalmente di pubblicare anche l'albo pretorio POP.
