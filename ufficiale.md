@@ -8,11 +8,11 @@ Alcune pubbliche amministrazioni hanno scelto di essere "**ufficialmente POP**" 
 
 ## Comune di Messina
 
-[![](./images/AlboPopMessina.png)](./file/Delibera 413 20160616 comune di Messina.pdf)
+[![](./images/alboPopMessina.png)](./file/Delibera 413 20160616 comune di Messina.pdf)
 
 ## Comune di Patti (Messina)
 
-[![](./images/AlboPopPatti.png)](./file/Delibera 44_2017-03-06 Approvazione e Adozione Albo Pop Comune di Patti.pdf)
+[![](./images/alboPopPatti.png)](./file/Delibera 44_2017-03-06 Approvazione e Adozione Albo Pop Comune di Patti.pdf)
 
 ## Comune di San Giuseppe Jato (Palermo)
 
