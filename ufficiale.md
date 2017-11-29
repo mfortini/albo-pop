@@ -8,8 +8,6 @@ Alcune pubbliche amministrazioni hanno scelto di essere "**ufficialmente POP**" 
 
 ## Comune di Messina
 
-[io]()
-
 [![](./images/AlboPopMessina.png)](./file/Delibera 413 20160616 comune di Messina.pdf)
 
 ## Comune di Patti (Messina)
