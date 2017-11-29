@@ -1,12 +1,14 @@
 ---
 layout: page
 title: Ufficialmente POP
-permalink: /ufficile/
+permalink: /ufficiale/
 ---
 
 Alcune pubbliche amministrazioni hanno scelto di essere "**ufficialmente POP**" e hanno deliberato formalmente di pubblicare anche l'albo pretorio POP.
 
 ## Comune di Messina
+
+[io]()
 
 [![](./images/AlboPopMessina.png)](./file/Delibera 413 20160616 comune di Messina.pdf)
 
