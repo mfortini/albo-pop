@@ -1,82 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css"
+	<link rel="stylesheet" type="text/css"
 	href="{{ site.baseurl }}/css/main.css">
-<title>{% if page.title %}{{ page.title }} – {% endif %}{{
-	site.name }} – {{ site.description }} - con widget</title> {% include meta.html %}
-
-<!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-<link rel="stylesheet" type="text/css"
-	href="{{ site.baseurl }}/style.css" />
-<link rel="alternate" type="application/rss+xml"
-	title="{{ site.name }} - {{ site.description }}"
-	href="{{ site.baseurl }}/feed.xml" />
-<link rel="stylesheet" type="text/css" href="http://opendatahacklab.org/commons/css/albopopwidget.css" />
-<script type="text/javascript"
-	src="http://www.opendatahacklab.org/rss-tools/js/rss-tools.js"></script>
-
-<!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-</head>
-
-<body>
-	<div class="wrapper-masthead">
-		<div class="container">
-			<header class="masthead clearfix">
-				<a href="{{ site.baseurl }}/" class="site-avatar"><img
-					src="{{ site.avatar }}" /></a>
-
-				<div class="site-info">
-					<h1 class="site-name">
-						<a href="{{ site.baseurl }}/">{{ site.name }}</a>
-					</h1>
-					<p class="site-description">{{ site.description }}</p>
+	<title>{% if page.title %}{{ page.title }} – {% endif %}{{
+		site.name }} – {{ site.description }} - con widget</title> {% include meta.html %}
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+			
+			<link rel="stylesheet" type="text/css"
+			href="{{ site.baseurl }}/style.css" />
+			<link rel="alternate" type="application/rss+xml"
+			title="{{ site.name }} - {{ site.description }}"
+			href="{{ site.baseurl }}/feed.xml" />
+			<link rel="stylesheet" type="text/css" href="http://opendatahacklab.org/commons/css/albopopwidget.css" />
+			<script type="text/javascript"
+			src="http://www.opendatahacklab.org/rss-tools/js/rss-tools.js"></script>
+			
+			<!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+		</head>
+		
+		<body>
+			<div class="wrapper-masthead">
+				<div class="container">
+					<header class="masthead clearfix">
+						<a href="{{ site.baseurl }}/" class="site-avatar"><img
+							src="{{ site.avatar }}" /></a>
+							
+							<div class="site-info">
+								<h1 class="site-name">
+									<a href="{{ site.baseurl }}/">{{ site.name }}</a>
+								</h1>
+								<p class="site-description">{{ site.description }}</p>
+							</div>
+							
+							<nav>
+								<!-- <a href="{{ site.baseurl }}/">Blog</a>-->
+								<a href="{{ site.baseurl }}/comune">Comuni</a> 
+								<a href="{{ site.baseurl }}/altrepa"
+								title="Altre Pubbliche Amministrazioni">Altre PA</a>
+								<a href="{{ site.baseurl }}/ufficiale">Ufficiale</a> 
+								<a href="{{ site.baseurl }}/post">Blog</a> 
+								<ahref="{{ site.baseurl }}/about">About</a>
+							</nav>
+						</header>
+					</div>
 				</div>
-
-				<nav>
-					<!-- <a href="{{ site.baseurl }}/">Blog</a>-->
-					<a href="{{ site.baseurl }}/comune">Comuni</a> <a
-						href="{{ site.baseurl }}/altrepa"
-						title="Altre Pubbliche Amministrazioni">Altre PA</a> <a
-						href="{{ site.baseurl }}/post">Blog</a> <a
-						href="{{ site.baseurl }}/about">About</a>
-				</nav>
-			</header>
-		</div>
-	</div>
-
-	<div id="main" role="main" class="container">	
-		<article class="post">
-			<h1>{{ page.title }}</h1>
-
-			<div id="albopopwidget">
-				<header>
-					Albo POP Widget - <em><a href="https://github.com/aborruso/albo-pop/wiki/Widget-Albo-POP">inseriscilo nel tuo sito!</a></em>
-				</header>
-			</div>	
-			<script type="text/javascript" defer>
-				drawRssWitdget("{{ page.rss }}", "albopopwidget");
-			</script>
-
-			<div class="entry">{{ content }}</div>
-
-			<!-- <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div> -->
-
-			{% include disqus.html %}
-		</article>
-	</div>
-
-	<div class="wrapper-footer">
-		<div class="container">
-			<footer class="footer"> {% include svg-icons.html %} </footer>
-		</div>
-	</div>
-
-	{% include analytics.html %}
-</body>
-</html>
+				
+				<div id="main" role="main" class="container">	
+					<article class="post">
+						<h1>{{ page.title }}</h1>
+						
+						<div id="albopopwidget">
+							<header>
+								Albo POP Widget - <em><a href="https://github.com/aborruso/albo-pop/wiki/Widget-Albo-POP">inseriscilo nel tuo sito!</a></em>
+							</header>
+						</div>	
+						<script type="text/javascript" defer>
+							drawRssWitdget("{{ page.rss }}", "albopopwidget");
+						</script>
+						
+						<div class="entry">{{ content }}</div>
+						
+						<!-- <div class="date">
+							Written on {{ page.date | date: "%B %e, %Y" }}
+						</div> -->
+						
+						{% include disqus.html %}
+					</article>
+				</div>
+				
+				<div class="wrapper-footer">
+					<div class="container">
+						<footer class="footer"> {% include svg-icons.html %} </footer>
+					</div>
+				</div>
+				
+				{% include analytics.html %}
+			</body>
+			</html>
