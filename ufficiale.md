@@ -4,7 +4,7 @@ title: Ufficialmente POP
 permalink: /ufficiale
 ---
 
-Alcune pubbliche amministrazioni hanno scelto di essere "**ufficialmente POP**" e hanno deliberato formalmente di pubblicare anche l'albo pretorio POP.
+Alcune **pubbliche amministrazioni** hanno scelto di essere "**ufficialmente POP**" e hanno deliberato formalmente la creazione e l'uso dell'albo pretorio POP.
 
 ## Comune di Messina
 
