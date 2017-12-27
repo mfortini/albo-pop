@@ -3,7 +3,7 @@ layout: comune
 title: Manerbio (Lombardia)
 ---
 
-La pagina dell'albo pretorio del **Comune di Manerbio** è questa: [http://asp.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1200776](http://asp.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1200776).
+La pagina dell'albo pretorio del **Comune di Manerbio** è questa: [http://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio](http://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio).
 
 Adesso puoi seguire le nuove pubblicazioni tramite:
 
