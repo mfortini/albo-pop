@@ -30,7 +30,7 @@ define('DATE_FORMAT','d/m/Y');
 class AlboScuolaGBVaccariniCTRowParser implements AlboRowParser{
 
 	private $baseUri;
-	private $errCount;
+	private $errCount=0;
 	
 	/**
 	 * 
@@ -58,8 +58,8 @@ class AlboScuolaGBVaccariniCTRowParser implements AlboRowParser{
  		
 		$docDivList=$cells->item(3)->getElementsByTagName('div');
 		if ($docDivList->length==0){
-	 		$entry->link="http://error.com";
-	 		$entry->guid="error".($this->errCount++);
+	 		$entry->link="http://error.com/".($this->errCount++);
+	 		$entry->guid=$entry->link;
 		} else {
  			$docId=$docDivList->item(0)->getAttribute("id_doc");
  			$entry->link="https://web.spaggiari.eu/sdg/app/default/view_documento.php?a=akVIEW_FROM_ID&id_documento=$docId&sede_codice=CTII0016";
