@@ -55,9 +55,15 @@ class AlboScuolaGBVaccariniCTRowParser implements AlboRowParser{
  		$entry->pubDate=DateTime::createFromFormat('d/m/Y',
  				$spans->item(2)->textContent);
  		
- 		$docId=$cells->item(3)->getElementsByTagName('div')->item(0)->getAttribute("id_doc");
- 		$entry->link="https://web.spaggiari.eu/sdg/app/default/view_documento.php?a=akVIEW_FROM_ID&id_documento=$docId&sede_codice=CTII0016";
- 		$entry->guid=$entry->link;
+		$docDivList=$cells->item(3)->getElementsByTagName('div');
+		if ($docDivList->lenght==0){
+	 		$entry->link="";
+	 		$entry->guid="error";
+		} else {
+ 			$docId=$docDivList->item(0)->getAttribute("id_doc");
+ 			$entry->link="https://web.spaggiari.eu/sdg/app/default/view_documento.php?a=akVIEW_FROM_ID&id_documento=$docId&sede_codice=CTII0016";
+ 			$entry->guid=$entry->link;
+		}
 		return $entry;
 	}
 	
