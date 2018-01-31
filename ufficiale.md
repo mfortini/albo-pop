@@ -17,3 +17,7 @@ Alcune **pubbliche amministrazioni** hanno scelto di essere "**ufficialmente POP
 ## Comune di San Giuseppe Jato (Palermo)
 
 [![](./images/alboPopSanGiuseppeJato.png)](./file/Delibera 30 del 20160219 di Giunta SGJ_Condivisione e promozione ALBO POP san giuseppe jato.pdf)
+
+## Comune di Cori (Latina)
+
+[![](./images/alboPopCori.png)](./file/DeliberaAlboPop_7_2018-01-23.pdf)
